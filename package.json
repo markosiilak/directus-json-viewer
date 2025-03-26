@@ -1,0 +1,16 @@
+{
+  "name": "directus-json-viewer",
+  "version": "1.0.0",
+  "type": "module",
+  "directus:extension": {
+    "type": "panel",
+    "path": "dist/index.js",
+    "source": "src/index.ts",
+    "host": "^10.1.0"
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build --watch",
+    "link": "directus-extension link"
+  }
+}
